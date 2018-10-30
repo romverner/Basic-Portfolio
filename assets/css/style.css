@@ -181,10 +181,6 @@ body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.port-hangman {
-
-}
-
 html, body {
     overflow: auto;
 }
@@ -221,16 +217,15 @@ textarea {
     border-color: #cccccc;
 }
 
-
-
 #port-hangman, #port-rpg, #port-trivia, #port-widget, #port-rps {
     background-color: #4aaaa5;
     position: absolute;
     margin: 0 0;
+    padding: 15px 0px 0px 0px;
     bottom: 0px;
     left: 0;
     width: 300px;
-    height: 50px;
+    height: 35px;
     text-align: center;
     color: #ffffff;
 }
