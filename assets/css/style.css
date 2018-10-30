@@ -141,6 +141,13 @@ h2 {
     font-family: 'Georgia', Times, serif;
 }
 
+h4 {
+    font-family: 'Georgia', Times, serif;
+    font-weight: normal;
+    margin: 0px 0px;
+    padding: 5px 0px;
+}
+
 a:link {
     color: #777777;
     text-decoration: none;
