@@ -6,13 +6,17 @@ header {
 
 footer {
     width: 100%;
+    text-align: center;
     margin: 0 auto;
     background-color: #666666;
     padding: 20px 0px;
+    border-style: solid;
+    border-width: 8px 0px 0px 0px;
+    border-color: #4aaaa5;
 }
 
 .container {
-    width: 960px;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
@@ -23,7 +27,11 @@ footer {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 20px auto;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 2px 2px;
+    border-color: #cccccc;
 }
 
 #container-border {
@@ -52,6 +60,11 @@ footer {
     background-color: #ffffff;
     margin: 10px 10px;
     flex: 0 0 98%;
+}
+
+.divider {
+    margin: 40px 0px 0px 0px;
+    color: #cccccc;
 }
 
 .sub-head {
@@ -88,16 +101,19 @@ footer {
 #about-box {
     text-align: center;
     flex-grow: 0.125;
+    margin: 40px 0px 0px 0px;
 }
 
 #portfolio-box {
     text-align: center;
     flex-grow: 0.125;
+    margin: 40px 0px 0px 0px;
 }
 
 #contact-box {
     text-align: center;
     flex-grow: 0.125;
+    margin: 40px 0px 0px 0px;
 }
 
 p {
@@ -106,8 +122,27 @@ p {
     line-height: 24px;
 }
 
+a:link {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4aaaa5;
+    text-decoration: none;
+}
+
 img {
     float: left;
+}
+
+body {
+    background-image: url("../images/dust_scratches.png");
 }
 
 #profile-pic {
@@ -117,4 +152,8 @@ img {
 #block-1 {
     order: 1;
     padding: 0px 10px;
+}
+
+html, body {
+    overflow: hidden;
 }
